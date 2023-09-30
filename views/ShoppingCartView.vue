@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div v-if="cartItems.length > 0" class="cart-summary">
+    <div v-if="cartItems.length> 0" class="cart-summary">
       <div class="subtotal">
         <span class="label">Subtotal:</span>
         {{ formatCurrency(itemSubtotal) }}
